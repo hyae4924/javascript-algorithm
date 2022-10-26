@@ -1,3 +1,4 @@
+// 삽입정렬응용
 function solution(size, arr) {
   const workList = arr.slice();
   const working = new Array(size).fill(0);

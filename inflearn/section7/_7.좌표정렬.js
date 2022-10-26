@@ -1,3 +1,4 @@
+//  좌표정렬
 function solution(arr) {
   const deepCopy = arr.map(item => item.map(item => item));
   deepCopy.sort((a, b) => {

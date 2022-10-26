@@ -1,3 +1,4 @@
+// 정렬문제
 function solution(arr) {
   const answer = [];
   const sorted = arr.slice().sort((a, b) => a - b);
